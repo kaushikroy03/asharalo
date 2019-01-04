@@ -263,11 +263,21 @@ $(document).ready(function(){
     	var language = $(this).data('name');
 
     	if (language == 'en') {
-    		window.location = 'http://localhost/aa/'+page;
+    		window.location = 'http://asharalo.in/'+page;
     	}else{
-	    	window.location = 'http://localhost/aa/'+language+'/'+page;
+	    	window.location = 'http://asharalo.in/'+language+'/'+page;
     	}
     });
+
+
+    $(document).on('click', '#whatsapp, #c-whatsapp', function(e) {
+		e.preventDefault();
+
+		var text = 'Hi! I want to talk about a patient.';
+		var url = 'https://api.whatsapp.com/send?phone=918906525379&text='+encodeURIComponent(text);
+
+		window.location.href = url;
+	});
 
 
 });
