@@ -1,0 +1,37 @@
+@media screen and (min-width:1024px) {
+
+	.infos{
+		justify-content: space-between;
+	}
+
+	.gallery{
+		li{
+			margin: 1rem;
+			width: calc(25% - 2rem);
+			max-width:380px;
+		}
+	}
+
+	.form-heading, .atta{
+		text-align:left;
+		width:391px;
+	}
+
+}
+
+
+@media screen and (min-width:1200px) and (max-width: 1365px) {
+
+	.contact{
+		padding: 0 7.5vw;
+	}
+
+}
+
+@media screen and (min-width:1366px) {
+
+	.contact{
+		padding: 0 100px;
+	}
+
+}

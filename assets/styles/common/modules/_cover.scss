@@ -1,0 +1,24 @@
+.cover{
+	position:relative;
+	height: 21.5vw;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .cover-text, h1{
+		color:#fff;
+		position: relative;
+		z-index:1;
+		font-weight:500;
+	}
+}
+.cover-img{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.h-cover{
+	height: 45vw !important;
+}

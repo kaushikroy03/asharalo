@@ -1,0 +1,19 @@
+footer{
+	margin-top:100px;
+	position: relative;
+}
+.ft-background{
+	position: absolute;
+	background-color: #FFE8DC;
+	height:100%;
+	width:100%;
+	min-height:306px;
+	top:0;
+	left:0;
+	z-index:0;
+	svg{
+		position: absolute;
+		top: -1px;
+		left: 0px;
+	}
+}

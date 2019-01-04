@@ -1,0 +1,29 @@
+#ham{
+	display: none;
+}
+#menu{
+	position:relative;
+	float:right;
+	height:unset;
+	width:unset;
+	top: unset;
+    left: unset;
+}
+nav{
+	height:unset;
+	box-shadow: unset;
+	li{
+		display: inline-block;
+		margin-right:35px;
+		line-height:unset;
+	}
+	a{
+    	padding: 8px;
+    }
+	li:last-child{
+		margin-right:0;
+		a{
+			padding-right:0;
+		}
+	}
+}

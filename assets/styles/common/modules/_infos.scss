@@ -1,0 +1,11 @@
+.infos{
+	display: flex;
+	text-align: center;
+	flex-wrap:wrap;
+	-webkit-flex-wrap: wrap;
+	border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 40px;
+	.small-heading{
+		margin:10px 0 20px;
+	}
+}

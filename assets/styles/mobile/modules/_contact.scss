@@ -1,0 +1,45 @@
+.contact{
+	.i-part{
+		align-items: flex-start;
+	}
+	.i-form-container{
+		margin-top: 45px;
+	}
+}
+.contact-part{
+	margin-bottom: 40px;
+	display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.address, .phone, .social {
+	margin-top:20px;
+}
+.social{
+	min-width:256px;
+	max-width:360px;
+	display: flex;
+	flex-wrap:wrap;
+	li{
+		//display: inline-block;
+		margin:10px;
+		width: 50px;
+	}
+	li:first-child{
+		margin-left:0;
+	}
+}
+.p{
+	div{
+		font-size:18px;
+		margin-bottom:6px;
+	}
+}
+.atta{
+	font-size:20px;
+	font-weight:600;
+	letter-spacing: 0.05em;
+	max-width: 392px;
+	line-height:30px;
+}
